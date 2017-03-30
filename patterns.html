@@ -2,9 +2,15 @@
 <!-- Author: Garrett De Long -->
 <html>
   <head>
-    <title>Personal Bio</title>
+    <title>Number Patterns</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="bio.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+     crossorigin="anonymous">
+    <script type="text/javascript" src="test.js"></script>
+    <script>
+    </script>
   </head>
   <body>
     <nav>
@@ -12,29 +18,32 @@
         <a class="navigation" href="index.html">Home</a>
       </div>
       <div class="nav-tab" style="float: right; width: 25%">
-        <a class="navigation" href="interests.html">Interests</a>
+        <a class="navigation" href="addition.html">Addition</a>
       </div>
       <div class="nav-tab" style="float: right; width: 25%">
-        <a class="navigation" href="compBio.html">Computer Biography</a>
+        <a class="navigation" href="contractions.html">Contractions</a>
       </div>
       <div class="nav-tab" style="float: right; width: 25%">
-        <a class="navigation" href="devPortfolio.html">Development Portfolio</a>
+        <a class="navigation" href="patterns.html">Number Patterns</a>
       </div>
     </nav>
-    <center><h1><span>Development Portfolio</span></h1></center>
-    <center><a href="https://github.com/gdelong1">My Github Profile</a>-link
-      to my main profile.</center>
-    <center><a href="https://github.com/gdelong1/BuildingTabs">Building Tabs</a>-
-      learned how to create navigation tabs.</center>
-    <center><a href="https://github.com/gdelong1/PersonalBio">Personal Biography</a>
-      - my first project.</center>
-    <center><a href="https://github.com/gdelong1/MovieSpoiler">Movie Spoiler</a>-
-      created a web page about a movie and practiced css.</center>
-    <center><a href="https://github.com/gdelong1/ProfessorPage">Professor Page</a>
-      - a page that looks like it from 1990 that we experimented on.</center>
-    <center><a href="https://github.com/gdelong1/ChicoInShort">Chico in Short</a>
-      - fixed a couple of errors in html file and practiced style.</center>
-    <center><a href="https://github.com/gdelong1/Grace-Hopper">Grace Hopper</a>
-      - a html page about the computer scientist Grace Hopper.</center>
+      <ol id="patterns" class="center5">
+        <li>1, 4, 7, 10, 13, 16, 19, 22, 25, ...</li>
+        <li>25, 23, 21, 19, 17, 15, ...</li>
+        <li>1, 3, 9, 27, 81, 243, ...</li>
+        <li>10, 5, 2.5, 1.25, 0.625, 0.3125, ...</li>
+        <li>0, 1, 4, 9, 16, 25, 36, 49, 64, 81, ...</li>
+        <li>0, 1, 1, 2, 3, 5, 8, 13, 21, ???</li>
+      </ol>
+      <h1><span>Number Patterns</span></h1>
+      <pid id="patternspara" class="center4">Here are 5 examples of number patterns. Complete the 6th
+        sequence by entering the next number in the box.
+      </p>
+      <div id="patternInput">
+        <form onSubmit="correctPattern();" id="pat">
+          Answer:<input type="text"><span id="err"></span>
+        </form>
+      </div>
+      <h1 id="err" class="center6">hi</h1>
   </body>
 </html>

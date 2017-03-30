@@ -2,9 +2,15 @@
 <!-- Author: Garrett De Long -->
 <html>
   <head>
-    <title>Personal Bio</title>
+    <title>Addition</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="bio.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+     crossorigin="anonymous">
+    <script type="text/javascript" src="test.js"></script>
+    <script>
+    </script>
   </head>
   <body>
     <nav>
@@ -12,42 +18,32 @@
         <a class="navigation" href="index.html">Home</a>
       </div>
       <div class="nav-tab" style="float: right; width: 25%">
-        <a class="navigation" href="interests.html">Interests</a>
+        <a class="navigation" href="addition.html">Addition</a>
       </div>
       <div class="nav-tab" style="float: right; width: 25%">
-        <a class="navigation" href="compBio.html">Computer Biography</a>
+        <a class="navigation" href="contractions.html">Contractions</a>
       </div>
       <div class="nav-tab" style="float: right; width: 25%">
-        <a class="navigation" href="devPortfolio.html">Development Portfolio</a>
+        <a class="navigation" href="patterns.html">Number Patterns</a>
       </div>
     </nav>
-    <div>
-      <div class="center2"><h1><span>Interests</span></h1></div>
-      <div class="center3"><img src="https://scontent.fsnc1-2.fna.fbcdn.net/v/t1.0-9/15442170_1150634581710145_7087920065069887119_n.jpg?oh=0e2ada85025bfea96ca098f79a7680f5&amp;oe=59726D35"
-        alt="mountain running" style="width: 275px; height: 275px"></div>
-      <div style="float: left; width: 40%">
-        <h2>Running</h2>
-          <ol>
-            <li>I have been competitevly running since I was a freshman in high
-              school.</li>
-            <li>My father and grandfather both competed in track and field during
-              their high school years.</li>
-            <li>I decided to continue my running career at chico state and I am
-              currently in my 1st year of eligibility.</li>
-          </ol>
-      </div>
-      <div style="float: right; width: 40%">
-        <h2>Video Games</h2>
-        <ol>
-          <li>I have been an avid gamer since early childhood. Starting with a
-            gameboy and a gamecube.</li>
-          <li>I moved to an xbox 360 in 7th grade and played the popular first
-            person shooter franchises like Call of Duty and Halo.</li>
-          <li>My freshman year of high school I built a gaming computer. I have
-            done most of my gaming on that, though I have been moving back to
-            consoles over the last couple months.</li>
-        </ol>
-      </div>
+    <ol id="patterns" class="center5">
+      <li>1 + 1 = 2</li>
+      <li>5 + -4 = 1</li>
+      <li>15 + 31 = 46</li>
+      <li>-3 + 14 = 11</li>
+      <li>113 + 55 = 168</li>
+      <li>568246446 + 3546546 = ???</li>
+    </ol>
+    <h1><span>Addition Problems</span></h1>
+    <pid id="patternspara" class="center4">Here are 5 examples of simple addition problems.
+      Complete the 6th addition problem by entering your answer in the box.
+    </p>
+    <div id="patternInput">
+      <form onSubmit="correctPattern();" id="pat">
+        Answer:<input type="text"><span id="err"></span>
+      </form>
     </div>
+    <h1 id="err" class="center6">hi</h1>
   </body>
 </html>

@@ -1,5 +1,5 @@
 nav > div{
-  background-color: orange;
+  background-color: red;
 }
 .navigation{
   text-decoration: none;
@@ -15,7 +15,7 @@ body{
   width: 600px;
   height: 50px;
   top: 10%;
-  left: 37%;
+  left: 45%;
   margin-left: -50px;
   margin-top: -25px;
 }
@@ -24,7 +24,7 @@ body{
   width: 400px;
   height: 200px;
   top: 20%;
-  left: 27.5%;
+  left: 23%;
   margin-left: -50px;
   margin-top: -25px;
 }
@@ -41,29 +41,55 @@ body{
   position: absolute;
   width: 400px;
   height: 50px;
+  top: 1%;
+  left: 10%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center4{
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  top: 12.5%;
+  left: 3%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center5{
+  position: absolute;
+  width: 600px;
+  height: 50px;
   top: 20%;
-  left: 44%;
-  margin-left: -50px;
-  margin-top: -25px;
-}
-#center4{
-  position: absolute;
-  width: 400px;
-  height: 50px;
-  top: 8%;
-  left: 41%;
-  margin-left: -50px;
-  margin-top: -25px;
-}
-#center5{
-  position: absolute;
-  width: 400px;
-  height: 50px;
-  top: 8%;
-  left: 43%;
+  left: 2.5%;
   margin-left: -50px;
   margin-top: -25px;
 }
 span{
   color: red;
+}
+
+#patterns{
+  font-size: 175%
+}
+
+#patternspara{
+  font-size: 140%;
+}
+
+#patternInput{
+  position: absolute;
+  left: 5px;
+ right: 10px;
+ top: 300px;
+bottom: 10px;
+}
+
+.center6{
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  top: 375px;
+  left: 25%;
+  margin-left: -50px;
+  margin-top: -25px;
 }
