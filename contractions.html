@@ -14,17 +14,20 @@
   </head>
   <body>
     <nav>
-      <div class="nav-tab" style="float: left; width: 25%">
+      <div class="nav-tab" style="float: left; width: 20%">
         <a class="navigation" href="index.html">Home</a>
       </div>
-      <div class="nav-tab" style="float: right; width: 25%">
+      <div class="nav-tab" style="float: right; width: 20%">
         <a class="navigation" href="addition.html">Addition</a>
       </div>
-      <div class="nav-tab" style="float: right; width: 25%">
+      <div class="nav-tab" style="float: right; width: 20%">
         <a class="navigation" href="contractions.html">Contractions</a>
       </div>
-      <div class="nav-tab" style="float: right; width: 25%">
+      <div class="nav-tab" style="float: right; width: 20%">
         <a class="navigation" href="patterns.html">Number Patterns</a>
+      </div>
+      <div class="nav-tab" style="float: right; width: 20%">
+        <a class="navigation" href="results.html">Results</a>
       </div>
     </nav>
     <ol id="patterns" class="center5">
@@ -40,10 +43,9 @@
     contraction by entering your answer in the box.
     </p>
     <div id="patternInput">
-      <form onSubmit="correctPattern();" id="pat">
-        Answer:<input type="text"><span id="err"></span>
+      <form>
+        Answer:<input oninput="correctContractions()" type="text" id="pat"><span id="err"></span>
       </form>
-    </div>
-    <h1 id="err" class="center6">hi</h1>
+    </div>>
   </body>
 </html>
